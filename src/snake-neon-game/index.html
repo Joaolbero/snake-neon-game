@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snake Neon Game | João Albero</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="../../icons/web-icon.png" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">Snake Neon Game</h1>
+      <p class="subtitle">by João Albero</p>
+    </header>
+
+    <main class="game-layout">
+      <section class="game-area">
+        <canvas id="gameCanvas" width="480" height="480"></canvas>
+
+        <div class="info-panel">
+          <div class="score-box">
+            <span>Score:</span>
+            <span id="score">0</span>
+          </div>
+          <div class="score-box">
+            <span>High Score:</span>
+            <span id="highScore">0</span>
+          </div>
+          <button id="btnRestart">Restart</button>
+          <p class="hint">Use as setas do teclado para jogar.</p>
+        </div>
+      </section>
+
+      <aside class="ranking">
+        <h2>Ranking Local</h2>
+        <ol id="rankingList">
+          
+        </ol>
+        <p class="ranking-note">
+          Os dados ficam salvos apenas neste navegador (LocalStorage).
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Snake Neon Game · João Albero · 2025</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
