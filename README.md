@@ -116,22 +116,30 @@ snake-neon-game/
 
 │  └─ snake-neon-game/
 
-│     ├─ index.html
+│       ├─ index.html
 
-│     ├─ style.css
+│       ├─ style.css
 
-│     └─ script.js
+│       ├─ script.js
 
+│       └─ assets/
+
+│            ├─ eat.mp3
+
+│            ├─ death.mp3
+│
 ├─ tests/
 
 │  └─ (JS logic tests)
 
+│
 ├─ README.md
 
 ├─ LICENSE
 
 ├─ .gitignore
 
+│
 ├─ icons/
 
 │  ├─ web-icon.png        # ícone da aba do navegador (favicon)
