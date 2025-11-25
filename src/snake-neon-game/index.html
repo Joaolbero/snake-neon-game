@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <title>Snake Neon Game | João Albero</title>
@@ -8,7 +7,6 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="../../icons/web-icon.png" />
 </head>
-
 <body>
   <div class="container">
     <header>
@@ -35,7 +33,6 @@
           </div>
         </div>
 
-
         <div class="toggles-group">
           <div class="toggle-wrapper">
             <span class="toggle-label">Modo Combo+</span>
@@ -44,7 +41,6 @@
               <span class="neon-slider"></span>
             </label>
           </div>
-
 
           <div class="toggle-wrapper">
             <span class="toggle-label">Modo Hard</span>
@@ -78,30 +74,29 @@
           <button id="btnRestart">Restart</button>
           <p class="hint">Setas do teclado para jogar. Toque nos controles abaixo no celular.</p>
         </div>
-  </div>
 
-  <div class="mobile-controls">
-    <button class="ctrl-btn" data-dir="up">▲</button>
-    <div class="ctrl-middle">
-      <button class="ctrl-btn" data-dir="left">◀</button>
-      <button class="ctrl-btn" data-dir="right">▶</button>
-    </div>
-    <button class="ctrl-btn" data-dir="down">▼</button>
-  </div>
-  </section>
+        <div class="mobile-controls">
+          <button class="ctrl-btn" data-dir="up">▲</button>
+          <div class="ctrl-middle">
+            <button class="ctrl-btn" data-dir="left">◀</button>
+            <button class="ctrl-btn" data-dir="right">▶</button>
+          </div>
+          <button class="ctrl-btn" data-dir="down">▼</button>
+        </div>
+      </section>
 
-  <aside class="ranking">
-    <h2>Ranking Local</h2>
-    <ol id="rankingList"></ol>
-    <p class="ranking-note">
-      Ranking local simples usando LocalStorage. Os dados ficam apenas neste navegador.
-    </p>
-  </aside>
-  </main>
+      <aside class="ranking">
+        <h2>Ranking Local</h2>
+        <ol id="rankingList"></ol>
+        <p class="ranking-note">
+          Ranking local simples usando LocalStorage. Os dados ficam apenas neste navegador.
+        </p>
+      </aside>
+    </main>
 
-  <footer>
-    <p>Snake Neon Game · João Albero · 2025</p>
-  </footer>
+    <footer>
+      <p>Snake Neon Game · João Albero · 2025</p>
+    </footer>
   </div>
 
   <script src="script.js"></script>
