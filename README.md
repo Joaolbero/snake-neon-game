@@ -2,10 +2,43 @@
 
 # 🐍 Snake Neon Game | João Albero  
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)]()
-[![Tech](https://img.shields.io/badge/made%20with-HTML%2C%20CSS%2C%20JS-orange?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)]()
-[![GitHub](https://img.shields.io/badge/github-JoaoAlbero-000000?style=for-the-badge&logo=github)](https://github.com/Joaolbero)
+<p align="center">
+
+  <!-- STATUS -->
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-brightgreen?style=for-the-badge">
+
+  <!-- PROJECT TYPE -->
+  <img src="https://img.shields.io/badge/PROJECT%20TYPE-FRONT--END-007bff?style=for-the-badge">
+
+  <!-- TECH -->
+  <img src="https://img.shields.io/badge/TECH-HTML%20%7C%20CSS%20%7C%20JS-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/JAVASCRIPT-Vanilla-yellow?style=for-the-badge">
+
+  <!-- FRAMEWORKS / LIBRARIES -->
+  <img src="https://img.shields.io/badge/FRAMEWORK-None-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DEPENDENCIES-0-critical?style=for-the-badge">
+
+  <!-- GAME FEATURES -->
+  <img src="https://img.shields.io/badge/MODE-Combo%2B%20%7C%20Hard-ff00bb?style=for-the-badge">
+  <img src="https://img.shields.io/badge/THEMES-5%20Themes-9f00ff?style=for-the-badge">
+  <img src="https://img.shields.io/badge/SOUND-ON%2FOFF-00e5ff?style=for-the-badge">
+  <img src="https://img.shields.io/badge/RANKING-LocalStorage-00ffaa?style=for-the-badge">
+
+  <!-- LICENSE -->
+  <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge">
+
+  <!-- VERSION -->
+  <img src="https://img.shields.io/badge/VERSION-1.0.0-purple?style=for-the-badge">
+
+  <!-- AUTHOR -->
+  <a href="https://github.com/Joaolbero">
+    <img src="https://img.shields.io/badge/GITHUB-JoaoAlbero-000000?style=for-the-badge&logo=github">
+  </a>
+
+  <!-- LAST COMMIT -->
+  <img src="https://img.shields.io/github/last-commit/Joaolbero/snake-neon-game?style=for-the-badge&color=brightgreen">
+
+</p>
 
 ---
 
