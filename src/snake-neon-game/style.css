@@ -300,3 +300,33 @@ footer {
   font-size: 0.75rem;
   color: #666;
 }
+
+/* ===== FIXAR LAYOUT EM 2 COLUNAS ===== */
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding-top: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.game-column {
+  flex: 0 0 620px;
+}
+
+.ranking-column {
+  flex: 0 0 360px;
+}
+
+#rankingPanel {
+  position: relative;
+  margin: 0;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 0 auto;
+}
