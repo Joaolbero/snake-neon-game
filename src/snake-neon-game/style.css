@@ -101,6 +101,11 @@ header {
   text-shadow: 0 0 6px #00ffcc;
 }
 
+.combo-box span:last-child {
+  color: #ffdd55;
+  text-shadow: 0 0 6px #ffdd55;
+}
+
 .toggles-group {
   display: flex;
   flex-wrap: wrap;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <title>Snake Neon Game | João Albero</title>
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="../../icons/web-icon.png" />
 </head>
+
 <body>
   <div class="container">
     <header>
@@ -18,85 +20,91 @@
       <section class="game-area">
         <canvas id="gameCanvas" width="480" height="480"></canvas>
 
-        <div class="info-panel">
-          <div class="score-group">
-            <div class="score-box">
-              <span>Score:</span>
-              <span id="score">0</span>
-            </div>
-            <div class="score-box">
-              <span>High Score:</span>
-              <span id="highScore">0</span>
-            </div>
+        <div class="score-group">
+          <div class="score-box">
+            <span>Score:</span>
+            <span id="score">0</span>
           </div>
-
-          <div class="toggles-group">
-            <div class="toggle-wrapper">
-              <span class="toggle-label">Modo Neon+</span>
-              <label class="neon-switch">
-                <input type="checkbox" id="toggleNeonPlus" />
-                <span class="neon-slider"></span>
-              </label>
-            </div>
-
-            <div class="toggle-wrapper">
-              <span class="toggle-label">Modo Hard</span>
-              <label class="neon-switch">
-                <input type="checkbox" id="toggleHard" />
-                <span class="neon-slider"></span>
-              </label>
-            </div>
-
-            <div class="toggle-wrapper">
-              <span class="toggle-label">Som</span>
-              <label class="neon-switch">
-                <input type="checkbox" id="toggleSound" checked />
-                <span class="neon-slider"></span>
-              </label>
-            </div>
+          <div class="score-box">
+            <span>High Score:</span>
+            <span id="highScore">0</span>
           </div>
-
-          <div class="theme-group">
-            <label for="themeSelect">Tema:</label>
-            <select id="themeSelect">
-              <option value="neonGreen">Neon Green</option>
-              <option value="neonBlue">Neon Blue</option>
-              <option value="neonPurple">Neon Purple</option>
-              <option value="matrixGreen">Matrix Green</option>
-              <option value="vaporwave">Vaporwave</option>
-            </select>
-          </div>
-
-          <div class="actions-group">
-            <button id="btnRestart">Restart</button>
-            <p class="hint">Setas do teclado para jogar. Toque nos controles abaixo no celular.</p>
+          <div class="score-box combo-box">
+            <span>Combo:</span>
+            <span id="combo">x1</span>
           </div>
         </div>
 
-        <div class="mobile-controls">
-          <button class="ctrl-btn" data-dir="up">▲</button>
-          <div class="ctrl-middle">
-            <button class="ctrl-btn" data-dir="left">◀</button>
-            <button class="ctrl-btn" data-dir="right">▶</button>
+
+        <div class="toggles-group">
+          <div class="toggle-wrapper">
+            <span class="toggle-label">Modo Combo+</span>
+            <label class="neon-switch">
+              <input type="checkbox" id="toggleNeonPlus" />
+              <span class="neon-slider"></span>
+            </label>
           </div>
-          <button class="ctrl-btn" data-dir="down">▼</button>
+
+
+          <div class="toggle-wrapper">
+            <span class="toggle-label">Modo Hard</span>
+            <label class="neon-switch">
+              <input type="checkbox" id="toggleHard" />
+              <span class="neon-slider"></span>
+            </label>
+          </div>
+
+          <div class="toggle-wrapper">
+            <span class="toggle-label">Som</span>
+            <label class="neon-switch">
+              <input type="checkbox" id="toggleSound" checked />
+              <span class="neon-slider"></span>
+            </label>
+          </div>
         </div>
-      </section>
 
-      <aside class="ranking">
-        <h2>Ranking Local</h2>
-        <ol id="rankingList"></ol>
-        <p class="ranking-note">
-          Ranking local simples usando LocalStorage. Os dados ficam apenas neste navegador.
-        </p>
-      </aside>
-    </main>
+        <div class="theme-group">
+          <label for="themeSelect">Tema:</label>
+          <select id="themeSelect">
+            <option value="neonGreen">Neon Green</option>
+            <option value="neonBlue">Neon Blue</option>
+            <option value="neonPurple">Neon Purple</option>
+            <option value="matrixGreen">Matrix Green</option>
+            <option value="vaporwave">Vaporwave</option>
+          </select>
+        </div>
 
-    <footer>
-      <p>Snake Neon Game · João Albero · 2025</p>
-    </footer>
+        <div class="actions-group">
+          <button id="btnRestart">Restart</button>
+          <p class="hint">Setas do teclado para jogar. Toque nos controles abaixo no celular.</p>
+        </div>
+  </div>
+
+  <div class="mobile-controls">
+    <button class="ctrl-btn" data-dir="up">▲</button>
+    <div class="ctrl-middle">
+      <button class="ctrl-btn" data-dir="left">◀</button>
+      <button class="ctrl-btn" data-dir="right">▶</button>
+    </div>
+    <button class="ctrl-btn" data-dir="down">▼</button>
+  </div>
+  </section>
+
+  <aside class="ranking">
+    <h2>Ranking Local</h2>
+    <ol id="rankingList"></ol>
+    <p class="ranking-note">
+      Ranking local simples usando LocalStorage. Os dados ficam apenas neste navegador.
+    </p>
+  </aside>
+  </main>
+
+  <footer>
+    <p>Snake Neon Game · João Albero · 2025</p>
+  </footer>
   </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
