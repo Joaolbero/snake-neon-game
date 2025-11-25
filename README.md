@@ -2,7 +2,10 @@
 
 # 🐍 Snake Neon Game | João Albero  
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]() [![Made_with](https://img.shields.io/badge/made%20with-HTML%2C%20CSS%2C%20JS-orange)]() [![License](https://img.shields.io/badge/license-MIT-blue)]() [![JoaoAlbero-GitHub](https://img.shields.io/badge/github-JoaoAlbero-000000?logo=github)](https://github.com/Joaolbero)
+[![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)]()
+[![Tech](https://img.shields.io/badge/made%20with-HTML%2C%20CSS%2C%20JS-orange?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)]()
+[![GitHub](https://img.shields.io/badge/github-JoaoAlbero-000000?style=for-the-badge&logo=github)](https://github.com/Joaolbero)
 
 ---
 
