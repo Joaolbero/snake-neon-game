@@ -205,3 +205,8 @@ Veja o arquivo LICENSE para mais detalhes.
 
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
+
+👤 Autor | Author
+
+Criado por João Albero · 2025
+Created by João Albero · 2025
