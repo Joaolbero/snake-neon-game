@@ -330,3 +330,18 @@ footer {
   display: block;
   margin: 0 auto;
 }
+
+.score-group {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 10px;
+}
+
+.score-box span:first-child {
+  margin-right: 6px;
+}
+
+.combo-box span:last-child {
+  margin-left: 4px;
+}
