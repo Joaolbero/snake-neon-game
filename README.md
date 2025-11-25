@@ -1,3 +1,5 @@
+<p align="center"> <img src="icons/readme-icon.png" alt="Snake Neon Icon" width="130"> </p>
+
 # 🐍 Snake Neon Game | João Albero  
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]() [![Made_with](https://img.shields.io/badge/made%20with-HTML%2C%20CSS%2C%20JS-orange)]() [![License](https://img.shields.io/badge/license-MIT-blue)]() [![JoaoAlbero-GitHub](https://img.shields.io/badge/github-JoaoAlbero-000000?logo=github)](https://github.com/Joaolbero)
